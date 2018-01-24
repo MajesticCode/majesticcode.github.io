@@ -1,0 +1,332 @@
+#Homeb {
+  text-align:center;
+  font-size:28px;
+}
+
+@media (min-width:1200px) {
+  #examples img {
+    height:223px;
+  }
+}
+
+@media (max-width:991px) {
+  #examples img {
+    height:277px;
+  }
+}
+
+#whatido {
+  width:100%;
+  color:white;
+  background-size:cover;
+  background-color:#26547c;
+}
+
+body {
+  font-family:'Open Sans', sans-serif;
+}
+
+.navbar {
+  margin:0;
+}
+
+#topimg {
+  text-align:center;
+  padding:97px;
+  background-image:url(../../assets/img/bg_hero_1.jpg);
+  background-size:cover;
+  color:white;
+  font-family:Georgia,serif;
+  height:500px;
+}
+
+#topimg .jumbotron {
+  border-radius:20px;
+  background-color:rgba(255,255,255,0.10);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #topimg .jumbotron {
+    padding:20px;
+    height:290px;
+  }
+}
+
+@media (max-width:1199px) {
+  #topimg {
+    padding:20px;
+    height:329px;
+  }
+}
+
+#topimg h1 {
+  font-size:50px;
+  color:#ffffff;
+  font-family:Georgia,serif;
+  font-weight:500;
+}
+
+@media (max-width:767px) {
+  #topimg h1 {
+    font-size:35px;
+    color:#ffffff;
+    padding:12px;
+  }
+}
+
+.site-head {
+  text-align:center;
+  padding:50px 0 60px;
+}
+
+.site-head h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .site-head h1 {
+    font-weight:normal;
+    margin-bottom:30px;
+    font-size:28px;
+  }
+}
+
+#welcome p {
+  max-width:800px;
+  font-size:18px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #welcome p {
+    max-width:800px;
+    font-size:17px;
+    margin:0 auto;
+    padding:20px;
+  }
+}
+
+@media (max-width:767px) {
+  #welcome h1 {
+    font-size:24px;
+  }
+}
+
+#whatido .item h2 {
+  font-size:19px;
+  font-weight:700;
+}
+
+@media (max-width:991px) {
+  #whatido .row {
+    margin:0 auto;
+    padding:0px;
+  }
+}
+
+@media (max-width:767px) {
+  #whatido .row {
+    font-size:16px;
+    padding:8px;
+  }
+}
+
+h1.text-nowrap.text-left {
+  padding:26px;
+}
+
+#whatido .item {
+  padding:23px;
+}
+
+@media (max-width:1199px) {
+  #welcome img {
+    height:270px;
+    padding:26px;
+  }
+}
+
+@media (min-width:1200px) {
+  #welcome img {
+    height:270px;
+    padding:26px;
+  }
+}
+
+@media (max-width:767px) {
+  #welcome img {
+    height:183px;
+    padding:26px;
+  }
+}
+
+#whatido img {
+  height:120px;
+}
+
+@media (max-width:1199px) {
+  #skills img {
+    height:223px;
+    /*width:100%;*/
+  }
+}
+
+@media (min-width:1200px) {
+  #skills img {
+    height:223px;
+    width:100%;
+  }
+}
+
+@media (min-width:1200px) {
+  #saying p {
+    text-align:center;
+    margin:0 auto;
+    padding:71px;
+    font-family:Georgia,serif;
+    margin-left:115px;
+    margin-right:115px;
+    font-size:larger;
+    color:#00335b;
+    font-weight:100;
+  }
+}
+
+@media (max-width:1199px) {
+  #saying p {
+    text-align:center;
+    margin:0 auto;
+    padding:71px;
+    font-family:Georgia,serif;
+    margin-left:115px;
+    margin-right:115px;
+    font-size:larger;
+    color:#00335b;
+    font-weight:100;
+  }
+}
+
+@media (max-width:767px) {
+  #saying p {
+    text-align:center;
+    margin:0 auto;
+    padding:41px;
+    font-family:Georgia,serif;
+    margin-left:21px;
+    margin-right:21px;
+    font-size:larger;
+    color:#00335b;
+    font-weight:100;
+  }
+}
+
+.sepp {
+  width:100%;
+}
+
+#examples {
+  margin:0 auto;
+  padding-top:1px;
+}
+
+.exampleh1 {
+  color:rgb(57,102,220);
+}
+
+@media (min-width:1200px) {
+  #craft {
+    padding:45px;
+    text-align:center;
+    margin:0 auto;
+    font-family:Georgia,serif;
+    color:rgb(34,27,27);
+    font-size:17px;
+  }
+}
+
+@media (max-width:991px) {
+  #craft {
+    padding:47px;
+    text-align:center;
+    margin:0 auto;
+    font-family:Georgia,serif;
+    color:rgb(34,27,27);
+    font-size:15px;
+  }
+}
+
+@media (max-width:767px) {
+  #craft .smimg {
+    height:182px;
+  }
+}
+
+@media (max-width:767px) {
+  #craft .texth1 {
+    font-size:21px;
+    padding:18px;
+  }
+}
+
+@media (max-width:991px) {
+  #craft .texth1 {
+    font-size:28px;
+    padding:18px;
+  }
+}
+
+#craft .texth1 {
+  font-size:31px;
+  padding:21px;
+}
+
+#logo.navbar-brand.navbar-link {
+  color:#5383d3;
+  font-family:Georgia,serif;
+}
+
+#contactme h1 {
+  text-align:center;
+  padding:18px;
+}
+
+#contactme h2.text-center {
+  font-family:"Chronicle Display Bold",Georgia,serif;
+}
+
+@media (max-width:1199px) {
+  #contactme {
+    width:491px;
+    padding:46px;
+    font-family:"Chronicle Display Bold",Georgia,serif;
+  }
+}
+
+@media (max-width:767px) {
+  #contactme {
+    width:348px;
+    padding:46px;
+    font-family:"Chronicle Display Bold",Georgia,serif;
+  }
+}
+
+@media (min-width:1200px) {
+  #contactme {
+    width:519px;
+    padding:46px;
+    font-family:"Chronicle Display Bold",Georgia,serif;
+  }
+}
+
+.contact-clean {
+  padding:29px;
+}
+
+#logo {
+  padding-left:40px;
+}
+
